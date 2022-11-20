@@ -499,8 +499,7 @@ bottom: 3.85em;
 .video-js.video-js:lang(en-NZ) .vjs-subs-caps-button .vjs-icon-placeholder, .video-js .vjs-subtitles-button .vjs-icon-placeholder {
   font-family: bootstrap-icons;
   font-weight: regular;
-  font-style: normal;
-  
+  font-style: normal;  
 }
 
 .vjs-icon-subtitles:before, .video-js .vjs-subs-caps-button .vjs-icon-placeholder:before,
@@ -517,13 +516,11 @@ bottom: 3.85em;
 .video-js:lang(fr-CA) .vjs-subs-caps-button .vjs-icon-placeholder, .video-js .vjs-captions-button .vjs-icon-placeholder {
   font-family: bootstrap-icons;
   font-weight: regular;
-  font-style: normal;
-  
+  font-style: normal;  
 }
 .vjs-icon-captions:before, .video-js:lang(en) .vjs-subs-caps-button .vjs-icon-placeholder:before,
 .video-js:lang(fr-CA) .vjs-subs-caps-button .vjs-icon-placeholder:before, .video-js .vjs-captions-button .vjs-icon-placeholder:before {
-  content: "\f165";
-  
+  content: "\f165";  
 }
 
 .video-js .vjs-subs-caps-button + .vjs-menu .vjs-captions-menu-item .vjs-menu-item-text .vjs-icon-placeholder:before {
@@ -571,22 +568,18 @@ cursor: pointer;
 
 .vjs-playback-rate > .vjs-menu-button,
 .vjs-playback-rate .vjs-playback-rate-value {
-  position: absolute;
-  
-  left: 1.75em;
-  width: 50%;
-  height: 0%;
+  position: absolute;  
+  left: 1.3em;
+  width: 100%;
+  height: 1%;
   z-index: 7;
 }
 
 /*---Playback Speeds Buttons---*/
-
-
 .vjs-playback-rate .vjs-playback-rate-value {
   pointer-events: none;
   font-size: 0.9em;
   line-height: 8.3em;
-  
     display: flex;
 align-items: center;
   justify-content: center;
