@@ -17,7 +17,7 @@ var player = videojs('emsgplayer1', {
       useNetworkInformationApi: true,      
     }
   },
-poster:'https://content.jwplatform.com/thumbs/AeaxqVcs-1280.jpg',
+poster:'https://i.ibb.co/N6NKwht/wallpaperflare-com-wallpaper-2.jpg',
   plugins: {    
 	}
 });
