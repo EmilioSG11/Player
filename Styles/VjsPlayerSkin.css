@@ -657,7 +657,7 @@ font-weight: regular;
 .vjs-live .vjs-remaining-time{display:none;}
 
 .video-js.vjs-live .vjs-time-control.vjs-current-time,.video-js.vjs-live .vjs-time-control.vjs-duration,.video-js.vjs-live .vjs-time-control.vjs-time-divider,.video-js.vjs-no-flex .vjs-time-control.vjs-remaining-time, .video-js.vjs-live .vjs-progress-control  {
-    display: true
+    display: none
 }
 
 .video-js.vjs-no-flex .vjs-time-control {
