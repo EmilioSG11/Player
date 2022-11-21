@@ -189,7 +189,7 @@
 		description.appendChild(document.createTextNode(item.description));
 		description.setAttribute('title', item.description);
 		li.appendChild(description);}
-      }
+      
 
       return li;
     }
