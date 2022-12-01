@@ -688,6 +688,10 @@ line-height: 50px;
   color: rgba(255, 0, 72, 1.0);
 	color: rgba(255,0,72,1.0);
 }
+
+.video-js .vjs-remaining-time {
+  display: none;
+}
   
 .vjs-live .vjs-time-divider {display:  flex;}  
   
