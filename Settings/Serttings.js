@@ -31,7 +31,7 @@ autoPlacement: 'bottom',
    getCurrentQuality: '720p'
 });
 
-player.getChild('controlBar').addChild('QualitySelector', {}, 16)
+player.getChild('controlBar').addChild('QualitySelector', {}, 15)
 
 /*---Poster Time Plugins---*/
 player.posterTime ({
