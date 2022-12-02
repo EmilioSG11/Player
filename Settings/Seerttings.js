@@ -38,6 +38,13 @@ player.posterTime ({
   poster: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==',
       align: 'top-right'});
 
+/*---Ads---*/
+player.ima({
+           id: 'emsgplayer1',          
+           adTagUrl:'https://googleads.g.doubleclick.net/pagead/ads?ad_type=video&client=ca-video-pub-4968145218643279&videoad_start_delay=0&description_url=http%3A%2F%2Fwww.google.com&max_ad_duration=40000&adtest=on',
+           playAdAlways: true,            
+          
+        });
 
  /*---Title Overlay Plugin---*/
     player.titleOverlay({
