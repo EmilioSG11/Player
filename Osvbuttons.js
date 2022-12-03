@@ -120,8 +120,8 @@
       overlayRow.classList.add('d-none');
     });
     player.on('pause', function () {
-      overlay.classList.remove('d-none');
-      overlayRow.classList.remove('d-none');
+      overlay.classList.add('d-none');
+      overlayRow.classList.add('d-none');
     });
     
     player.on('useractive', function () {
