@@ -800,7 +800,7 @@
 .video-js.vjs-live .vjs-time-control.vjs-duration,
 .video-js.vjs-live .vjs-time-control.vjs-time-divider,
 .video-js.vjs-live .vjs-time-control.vjs-remaining-time, .video-js.vjs-live .vjs-progress-control {
-    display: nne
+    display: none
   }
   
   /*---Progress Control---*/
