@@ -1015,6 +1015,73 @@
     right: -0.5em;
     color: #ff0048;
   }
-  
  
+ /*---Loading Spinner---*/
+  .emsg-skin .vjs-loading-spinner {
+    z-index: 20;
+    width: 3rem;
+    height: 3.81rem;
+    top: 50%;
+    left:calc(50% + 6px);
+    float: right;
+    border: none;
+    opacity: 0;
+    visibility: hidden;
+    animation: vjs-spinner-fade-out 2s linear 1;
+    animation-delay: 2s;
+  }
+ 
+  .emsg-skin .vjs-loading-spinner:before, 
+  .emsg-skin .vjs-loading-spinner:after {  
+    border: none;
+  }
+
+  .emsg-skin .vjs-loading-spinner:after { 
+    background-image: url(https://cdn.jsdelivr.net/gh/ltft/ltftvplayer@main/Rolling-5.6s-106px.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    -moz-background-size: 100%; 
+    -o-background-size: 100%;
+    background-size: 100%;
+    z-index: 6;
+  }
+
+  .vjs-seeking .vjs-loading-spinner:after,
+  .vjs-waiting .vjs-loading-spinner:after {
+    opacity: 1;
+    animation: vjs-spinner-spin 2.7s linear infinite,
+    vjs-spinner-fade .1s linear 0 !important;
+    animation-delay: 0s;
+  }
+
+  .vjs-seeking .vjs-loading-spinner,
+  .vjs-waiting .vjs-loading-spinner {  
+     opacity: 1;
+    visibility: visible;
+    animation: vjs-spinner-fade-in 0s linear 0;
+    animation-delay: 0s;
+  }
+
+  @keyframes vjs-spinner-fade-in {
+    0% {
+    opacity: 0;
+    visibility: visible;
+    } 
+    100% {
+    opacity: 1;
+    visibility: visible;
+    }   
+  }
+  @keyframes vjs-spinner-fade-out {  
+    0% {         
+      opacity: 1;  
+      visibility: visible;       
+    }  
+    100% {      
+      opacity: 0;
+      visibility: visible;  
+    }  
+  }
+
   
