@@ -168,16 +168,16 @@ a, a:hover, a:visited { color: #76DAFF; }
   }
   }
 
-  .emsg-skin .vjs-icon-circle, .vjs-seek-to-live-
-  control .vjs-icon-placeholder {
+  .emsg-skin .vjs-icon-circle, 
+  .vjs-seek-to-live-control .vjs-icon-placeholder {
     font-family: bootstrap-icons;
     font-weight: bold;
     font-style: normal;
     z-index: 5;
   }
 
-  .emsg-skin .vjs-icon-circle:before, .vjs-seek-to-
-  live-control .vjs-icon-placeholder:before {
+  .emsg-skin .vjs-icon-circle:before, 
+  .vjs-seek-to-live-control .vjs-icon-placeholder:before {
     content: "\F518";
     animation: blink 1000ms 0s ease infinite;
     animation: blink 1000ms 0s ease infinite;
