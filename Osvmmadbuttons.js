@@ -117,7 +117,7 @@
     
     player.on('userinactive', function () {
       overlay.classList.add('d-none');
-      overlayRow.classList.remove('d-none');
+      overlayRow.classList.add('d-none');
     });
     player.on('pause', function () {
       overlay.classList.add('d-none');
@@ -126,7 +126,7 @@
     
     player.on('useractive', function () {
       overlay.classList.remove('d-none');
-      overlayRow.classList.remove('d-none');
+      overlayRow.classList.add('d-none');
     });
     overlay.addEventListener('', function (e) {
       var controlBar = document.querySelector('.vjs-control-bar'); // If clicked element is overlay button, then ignore this
