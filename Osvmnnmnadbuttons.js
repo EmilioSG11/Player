@@ -125,7 +125,7 @@
     });
     
     player.on('useractive', function () {
-      overlay.classList.add('d-none');
+      overlay.classList.remove('d-none');
       overlayRow.classList.remove('d-none');
     });
     overlay.addEventListener('', function (e) {
