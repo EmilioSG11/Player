@@ -119,6 +119,12 @@
       overlay.classList.add('d-none');
       overlayRow.classList.add('d-none');
     });
+
+player.on('play', function () {
+      overlay.classList.add('d-none');
+      overlayRow.classList.add('d-none');
+    });
+
     player.on('pause', function () {
       overlay.classList.add('d-none');
       overlayRow.classList.add('d-none');
