@@ -126,8 +126,8 @@ player.on('play', function () {
     });
 
     player.on('pause', function () {
-      overlay.classList.add('d-none');
-      overlayRow.classList.add('d-none');
+      overlay.classList.remove('d-none');
+      overlayRow.classList.remove('d-none');
     });
     
     player.on('useractive', function () {
