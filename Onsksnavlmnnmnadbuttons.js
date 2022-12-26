@@ -117,7 +117,7 @@
     
     player.on('userinactive', function () {
       overlay.classList.add('d-none');
-      overlayRow.classList.add('d-none');
+      overlayRow.classList.remove('d-none');
     });
 
 player.on('play', function () {
